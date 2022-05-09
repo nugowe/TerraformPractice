@@ -1,0 +1,4 @@
+indexed-nginx_logs:
+    version: 1
+      logfile-name: s3://anogatorprotagonalogs/nginx_index/$NGINX_LOG_FILE
+        timestamp: $CURRENT_TIME
